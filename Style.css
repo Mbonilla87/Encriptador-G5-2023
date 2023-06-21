@@ -3,15 +3,16 @@
     font-family: 'Inter';
     font-weight: 350;
     font-size: 25px;
-    line-height: 140%;
-    max-width: 1200px;
+    line-height: 135%;
+    max-width: 930px;
     margin: 0 auto;
   }
   
   .logo {
     padding-top: 10px;
     margin-left: 15px;
-    width: 2%;
+    width: 3%;
+    position: relative;
   }
   
   main {
@@ -23,20 +24,20 @@
   .text-area {
     background-image: url("imagenes/Diseño sin título.gif");
     border: none;
-    background-blend-mode: soft-light;
+    background-blend-mode: hard-light;
     background-position: center;
-    background-size: ;
+    background-size: cover;
     color: #0a3871;
     font-weight: bolder;
     border-radius: 23px;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-top: 15px;
-    padding-left: 15px;
+    padding-left: 10px;
     text-transform: lowercase;
   }
   
   .text-area::placeholder {
-    color: #0a3871;
+    color: #022652;
   }
   
   .text-area:focus {
@@ -52,9 +53,9 @@
     border-radius: 25px;
     color: #031e3f;
     font-weight: bolder;
-    margin-left: 18px;
+    margin-left: 15px;
     margin-top: 5px;
-    padding-left: 20px;
+    padding-left: 13px;
     position: fixed;
   }
   
@@ -64,29 +65,29 @@
   
   .botones {
     display: flex;
-    margin-top: 2%;
+    margin-top: 3%;
   }
   
   .btn-desencriptar {
     background-color: #0a3871;
     border: 3px solid rgb(247, 253, 253);
-    border-radius: 25px;
+    border-radius: 30px;
     color: whitesmoke;
     font-weight: bold;
     cursor: pointer;
     height: 60px;
-    width: 200px;
+    width: 175px;
   }
   
   .btn-encriptar {
     background-color: turquoise;
     border: 3px solid #0a3871;
-    border-radius: 25px;
+    border-radius: 30px;
     color: #0a3871;
     font-weight: bold;
     cursor: pointer;
     height: 60px;
-    width: 200px;
+    width: 175px;
   }
   
   .btn-copiar {
@@ -124,5 +125,5 @@
         font-weight: bolder;
         font-style: italic;  
         padding-inline: 10px;
-        padding-left: 45%;
+        padding-left: 50%;
     }
