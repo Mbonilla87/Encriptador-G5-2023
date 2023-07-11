@@ -15,7 +15,7 @@
     position: relative;
   }
   
-  main {
+  .main {
     display: flex;
     max-width: 930px;
     margin: 0 auto;
@@ -30,10 +30,22 @@
     color: #0a3871;
     font-weight: bolder;
     border-radius: 23px;
+
+    text-transform: lowercase;
+      @media screen and (min-width:0) {
+    .text-area {
+    margin-left: 10px;
+    margin-top: 7.5px;
+    padding-left: 5px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .text-area {
     margin-left: 20px;
     margin-top: 15px;
     padding-left: 10px;
-    text-transform: lowercase;
+    }
   }
   
   .text-area::placeholder {
@@ -53,10 +65,22 @@
     border-radius: 25px;
     color: #031e3f;
     font-weight: bolder;
+
+    position: fixed;
+    @media screen and (min-width:0) {
+    .mensaje{
+    margin-left: 7.5px;
+    margin-top: 2.5px;
+    padding-left: 6.5px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .mensaje{
     margin-left: 15px;
     margin-top: 5px;
     padding-left: 13px;
-    position: fixed;
+    }
   }
   
   .mensaje:focus {
