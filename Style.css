@@ -109,6 +109,8 @@
     color: rgb(77, 75, 75);
     font-weight: bold;
     font-size: 15px;
+    display: flex;
+
 }
     .BNS {
     color: rgb(77, 75, 75);
@@ -117,6 +119,7 @@
     font-style: italic;
     padding-left: 5%;
     margin-top: 2%;
+    display: flex;
 }
 
     .CR{
@@ -126,4 +129,5 @@
         font-style: italic;  
         padding-inline: 10px;
         padding-left: 50%;
+        display: flex;
     }
